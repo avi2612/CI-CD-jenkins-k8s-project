@@ -10,3 +10,5 @@ RUN cp -rfv loxury/* .
 RUN rm -rf loxury loxury.zip
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 EXPOSE 80
+
+# testing ci-cd
